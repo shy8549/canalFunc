@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="snappy-java" />
+        <module name="postgres-demo" />
+        <module name="workflow-flink-function" />
+        <module name="fakeTools" />
+        <module name="flink-function" />
+        <module name="pretreat" />
+        <module name="tools" />
+        <module name="workflow-function" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

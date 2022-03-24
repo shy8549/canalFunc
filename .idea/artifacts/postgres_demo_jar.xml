@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="postgres-demo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/postgres_demo_jar</output-path>
+    <root id="archive" name="postgres-demo.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/postgres-demo/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="postgres-demo" />
+      <element id="extracted-dir" path="F:/maven/localRepository/log4j/log4j/1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven/localRepository/org/postgresql/postgresql/42.1.1/postgresql-42.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven/localRepository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
