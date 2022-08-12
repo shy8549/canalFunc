@@ -18,6 +18,26 @@ public class CpuControl {
         }
         pool.shutdown();
     }
+// 使用args[] 来使用变量来控制cpu
+/*    public static void main(String[] args)
+    {
+        long startTime = 0;// 开始时间
+        int busyTime = Integer.parseInt(args[0]);// 繁忙时间
+        int idleTime = Integer.parseInt(args[1]);// 空闲时间
+        while (true)
+        {
+            startTime = System.currentTimeMillis();     // CPU繁忙
+            while (System.currentTimeMillis() - startTime <= busyTime);   // CPU空闲
+            try
+            {
+                Thread.sleep(idleTime);
+            }
+            catch (InterruptedException e)
+            {
+                e.printStackTrace();
+            }
+        }
+    }*/
 }
 
 class Loop implements Runnable {

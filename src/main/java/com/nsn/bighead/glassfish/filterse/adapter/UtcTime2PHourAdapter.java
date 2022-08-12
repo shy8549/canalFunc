@@ -23,8 +23,8 @@ public class UtcTime2PHourAdapter extends DataFilterAdapter {
     @Override
     public String handleBuffer(String[] arg0, String arg1, int columnX, String service){
         if ((arg1 != null) && (!"".equals(arg1))) {
-            log.info("get input string : "+arg1);
-            log.info("get transform result : "+getHourStart(arg1));
+//            log.info("get input string : "+arg1);
+//            log.info("get transform result : "+getHourStart(arg1));
             return getHourStart(arg1);
         }
         return "";

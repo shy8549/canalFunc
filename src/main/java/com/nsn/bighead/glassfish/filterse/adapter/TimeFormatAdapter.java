@@ -75,6 +75,13 @@ public class TimeFormatAdapter extends DataFilterAdapter {
                     }
                     formatTime = sdf.parse(todo.substring(0, 23)).getTime();
                     formatTimeOther = Long.parseLong(todo.substring(23, 26));
+                } else if ("yyyy-MM-dd HH:mm:ss.SSSSSSS".equals(pattern)) {
+                    SimpleDateFormat sdf = MyDateUtil.getDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+                    if (!"".equals(zone)) {
+                        sdf.setTimeZone(TimeZone.getTimeZone(zone));
+                    }
+                    formatTime = sdf.parse(todo.substring(0, 23)).getTime();
+                    formatTimeOther = Long.parseLong(todo.substring(23, 26));
                 } else if ("yyyy-MM-dd HH:mm:ss.SSSSSSSSS".equals(pattern)) {
                     SimpleDateFormat sdf = MyDateUtil.getDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
                     if (!"".equals(zone)) {
