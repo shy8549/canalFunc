@@ -16,5 +16,8 @@
         <module name="workflow-function" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flume-kafka-sinkLocal" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
